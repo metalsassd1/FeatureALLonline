@@ -5,7 +5,7 @@ import '../.././CSS/Navbar.css';
 
 const CustomNavbar = () => {
   return (
-    <Navbar expand="lg" className="custom-navbar BG">
+    <Navbar expand="lg" className="custom-navbar bg-light py-0">
       <Container>
         <Navbar.Brand href="/"> </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
